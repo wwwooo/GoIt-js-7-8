@@ -1,6 +1,6 @@
 $(function() {
     $('.tabs__content').hide();
-    $('#content-one').css('display', 'block');
+    $('#content-one').show();
 
     $('#header-one').on('click', function() {
         $('.tabs__content').hide();
