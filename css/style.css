@@ -1,0 +1,30 @@
+.tabs {
+    margin: 0 auto;
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    overflow-y: auto;
+}
+
+.tabs__menu {
+    margin: 0;
+    padding: 0;
+    background: #aaa;
+}
+
+.tabs__header {
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid;
+    list-style: none;
+    text-align: center;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.tabs__content {
+    padding-left: 10px;
+}
