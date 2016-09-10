@@ -1,3 +1,7 @@
+body {
+    font: 14px Verdana;
+}
+
 .tabs {
     margin: 0 auto;
     padding: 5px;
@@ -27,4 +31,30 @@
 
 .tabs__content {
     padding-left: 10px;
+}
+
+form {
+    margin: 10px auto;
+    padding: 5px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid;
+}
+
+label {
+    position: relative;
+    display: block;
+    margin: 15px 0;
+}
+
+label input {
+    position: absolute;
+    left: 80px;
+}
+
+.hover {
+    position: absolute;
+    left: 230px;
+    top: 4px;
+    font-size: 10px;
 }
