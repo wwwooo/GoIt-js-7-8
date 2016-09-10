@@ -19,15 +19,11 @@ $(function() {
 
     $('.hover').hide();
 
-    $('.user-data').mouseover(function() {
+    $('.user-data').on('mouseover', function() {
         $(this).siblings('.hover').show().fadeOut(3000);
     });
 
-    $('.user-data').mouseout(function() {
+    $('.user-data').on('mouseout', function() {
         $(this).siblings('.hover').hide();
     });
 });
-
-// e.preventDefault(); //останавливаем поведение по умолчанию
-// $submenu.toggle(); //показать скрыть
-// $sunmenu.slideToggle(); //animation
