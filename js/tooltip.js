@@ -1,11 +1,11 @@
 $(function functionName() {
-    $('.hover').hide();
+    $('.hover').fadeOut(0);
 
-    $('.user-data').on('mouseover', function() {
-        $(this).siblings('.hover').show().animate({opacity: '0.6'}, 2000);
+    $('.user-data').on('focusin', function() {
+        $(this).siblings('.hover').fadeIn(1000);
     });
 
-    $('.user-data').on('mouseout', function() {
-        $(this).siblings('.hover').hide();
+    $('.user-data').on('focusout', function() {
+        $(this).siblings('.hover').fadeOut(500);
     });
 });
