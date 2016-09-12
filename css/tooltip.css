@@ -19,8 +19,9 @@ label {
     left: 80px;
 }
 
-.hover {
+.tip {
     position: absolute;
+    display: none;
     left: 230px;
     top: 4px;
     font-size: 10px;
