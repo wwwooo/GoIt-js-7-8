@@ -1,0 +1,32 @@
+.tabs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    font: 14px Verdana;
+}
+
+.tabs__menu {
+    margin: 0;
+    padding: 0;
+    background: #aaa;
+}
+
+.tabs__header {
+    display: inline-block;
+    margin: 5px 0;
+    margin-left: 22px;
+    width: 100px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.tabs__content {
+    margin-top: 10px;
+    padding-left: 10px;
+}
